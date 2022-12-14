@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="salut_a_tous_cest_demoncraft"
+version="1.0.0"
+displayName="Salut a tous c'est DemonCraft"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Utilisateur, MCreator"
+
+[[dependencies.salut_a_tous_cest_demoncraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

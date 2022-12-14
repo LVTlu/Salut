@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Salut",
+    "icon": {
+      "value": "Blocks.GOLD_ORE"
+    },
+    "showSearch": false
+  }
+}
