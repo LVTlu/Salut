@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "salut_a_tous_cest_demoncraft:items/grass_boots"
+  }
+}

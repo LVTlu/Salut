@@ -7,13 +7,47 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "salut"
+    },
+    {
+      "name": "Grass",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "GrassHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grass_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabsalut": "Salut"
+      "item.salut_a_tous_cest_demoncraft.grass_chestplate": "Grass Body",
+      "itemGroup.tabsalut": "Salut",
+      "item.salut_a_tous_cest_demoncraft.grass_helmet": "Grass Helmet",
+      "item.salut_a_tous_cest_demoncraft.grass_leggings": "Grass Leggings",
+      "item.salut_a_tous_cest_demoncraft.grass_boots": "Grass Boots"
     }
   },
   "foldersRoot": {

@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.salutatouscestdemoncraft.init.SalutATousCestDemoncraftModTabs;
+import net.mcreator.salutatouscestdemoncraft.init.SalutATousCestDemoncraftModItems;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -47,6 +48,8 @@ public class SalutATousCestDemoncraftMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		SalutATousCestDemoncraftModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SalutATousCestDemoncraftModItems.REGISTRY.register(bus);
 
 	}
 
